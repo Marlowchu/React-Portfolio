@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  
+}
+/* header layout */
+.header {
+    /* background-image: url("./assets/images/black.jpg"); */
+  background-position: center;
+  
+}
+
+
+header {
+  padding: 40px;
+  text-align: center;
+  background-color: darkgrey;
+  color:black;
+  background-position: center;
+  border-style: solid;
+  border-color: black;
+  font-size: larger;
+  
+}
+
+header h2 {
+  display: inline;
+  padding: 40px;
+  text-align: right;
+  color:chartreuse;
+
+  
+}
+section p {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* nav bar */
+nav {
+  display: flex;
+  background-color: darkgrey;
+  
+}
+nav h1{
+ display: block; 
+ color: chartreuse;
+ width: 30%;
+ font-size: xx-large;
+ margin-left: 5px;
+
+}
+
+nav a {
+  display: flex;
+  color: black;
+  padding: 35px 20px;
+  text-decoration: underline;
+   justify-content: center;
+  
+}
+
+main {
+  display: inline-flexbox;
+   flex-wrap: wrap;
+}
+/* about me layout */
+.aboutme {
+  background-color: lightgray;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border-left-style: solid;
+  height: 195pt;
+  margin-bottom: 20px;
+    
+}
+
+.aboutme img {
+  display: flex;
+   width: 320px;
+  outline-style: solid;
+  flex-wrap: nowrap;
+  float: right;
+ margin: 10px;
+   
+}
+/* contact me layout */
+.contactme {
+  background-color: lightgray;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-left-style: solid;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 20px;
+ 
+} 
+
+.contactme ul {
+  font-size: x-large;
+  text-align: center;
+   list-style-position: outside;
+  list-style-type: none;
+  } 
+
+/* side bar  */
+aside {
+  display: block;
+  flex-wrap: wrap;
+  background-color: chartreuse;
+  /* padding: 80px; */
+  float: left;
+  width: 15%;
+  }
+
+aside h2 {
+  text-align: right;
+ justify-content: right;
+ margin-right: 5px;
+ 
+}
+
+/* project layout */
+.projects {
+  
+  background-color: lightgray;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-left-style: solid;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+
+
+.project {
+  
+  padding: 5px;
+  width: 500px;
+  
+}
+
+.project img {
+  width: 100%;
+ 
+}
+
+/* Biggger image */
+.project1 {
+
+  padding: 5px;
+  width: 800px;
+
+}
+
+
+.project1 img {
+  width: 100%;
+  
+}
+
+/* hover affect on images */
+.project1 img:hover {
+    box-shadow: inset 5px 50px 50px chartreuse, 0 0 100px chartreuse;
+}
+
+.project img:hover {
+  box-shadow: inset 5px 50px 50px chartreuse, 0 0 100px chartreuse;
+}
+
+footer {
+  
+  padding: 20px;
+  text-align: center;
+  background: darkgrey;
+  color:black;
+  width: 100%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  main, nav {
+    flex-direction: column;
+  }
+}
