@@ -7,7 +7,7 @@ export default function Blog() {
       <div id="mywork" class="projects">
 <h1>Projects</h1>
   
-<section class="project1">
+<section class="project">
   <a href="https://github.com/Marlowchu/Hero-Site" target="_blank" title="click to go to Github repo"><header>Heroscope</header></a>
   <a href="https://marlowchu.github.io/Hero-Site/" target="_blank" title="click to go to deployed site"><img src="./assets/images/hero.png" alt="Project1"/></a>
 </section>
