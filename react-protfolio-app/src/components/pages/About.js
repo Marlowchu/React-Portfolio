@@ -6,7 +6,6 @@ export default function About() {
     
     <div id="aboutme" class="aboutme"> 
 
-<h1>About</h1>
    
     <section>
        <img src="./assets/images/me.jpg" alt="photo of me" />

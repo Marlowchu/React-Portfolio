@@ -4,20 +4,15 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+
+
+    
     <ul className="nav nav-tabs header">
-      <li className="nav-item">
-        <a class = "nav-text"
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
 
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-        <h2 class="nav-text">Home</h2>
-        </a>
-      </li>
+<h1 class="nav-text1">Chuck Marlow Portfolio</h1>
 
-      <li className="nav-item">
+     
+     <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -25,21 +20,24 @@ function NavTabs({ currentPage, handlePageChange }) {
 
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          <h2 class="nav-text">About</h2>
+          <h2 class="nav-text">About Me</h2>
         </a>
       </li>
-
+     
+     
       <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => handlePageChange('Blog')}
+          href="#projects"
+          onClick={() => handlePageChange('Projects')}
           //  TODO: Add a comment explaining what this logic is doing
 
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
         >
           <h2 class="nav-text">Projects</h2>
         </a>
       </li>
+
+
       <li className="nav-item">
         <a
           href="#contact"
@@ -51,6 +49,21 @@ function NavTabs({ currentPage, handlePageChange }) {
           <h2 class="nav-text">Contact</h2>
         </a>
       </li>
+
+
+      <li className="nav-item">
+        <a class = "nav-text"
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
+
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+        <h2 class="nav-text">Resume</h2>
+        </a>
+      </li>
+
+      
     </ul>
   );
 }

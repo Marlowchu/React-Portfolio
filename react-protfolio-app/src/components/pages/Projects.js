@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default function Blog() {
+export default function Projects() {
   return (
     
       
-      <div id="mywork" class="projects">
-<h1>Projects</h1>
+<div id="mywork" class="projects">
+
   
 <section class="project">
   <a href="https://github.com/Marlowchu/Hero-Site" target="_blank" title="click to go to Github repo"><header>Heroscope</header></a>

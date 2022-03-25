@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+/* #root {
+  
+  background-color: darkgrey;
+  
+} */
+
 body {
   font-family: Arial;
   margin: 0;
@@ -29,7 +35,16 @@ header {
 
 .nav-text {
   display: inline;
-  /* padding: 40px; */
+  padding: 30px;
+  /* margin-top: 40px; */
+  /* text-align: right; */
+  color:chartreuse;
+
+  
+}
+.nav-text1 {
+  display: inline;
+  /* padding: 20px; */
   /* text-align: right; */
   color:chartreuse;
 
@@ -185,6 +200,20 @@ footer {
   width: 100%;
   display: inline-block;
 }
+
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+
+
 
 @media screen and (max-width: 768px) {
   main, nav {
