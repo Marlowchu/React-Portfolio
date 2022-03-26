@@ -4,7 +4,7 @@
 
 This program is a portfolio created using React.
 
-link to deployed Portfolio (https://marlowchu.github.io/React-Portfolio/#about) 
+link to deployed Portfolio (https://marlowchu.github.io/React-Portfolio/) 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
